@@ -1,0 +1,110 @@
+
+/* Resets the page to start */
+*{
+    margin-left:0%;
+    margin-top:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+/* Flexing the stuff (oooh, so strong) */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flexed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.flexedcenter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+.flexleftapart{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+.flexcenterapart{
+    display: flex;
+    justify-content: space-between;
+
+}
+.mb{
+    margin-bottom: 10px;
+}
+.pushcenter{
+    padding: 10px;
+}
+
+/* Main container for all elements */
+.container{
+    width: 100%;
+    height: 100%;
+    /* background-color: lightslategray; */
+    color: black;
+    padding: 10%;
+}
+
+/* Header */
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    color: white;
+}
+/* Title */
+.title{
+    height: 80px;
+    width: 100px;
+    margin-left: 300px;
+    /* background-color: crimson; */
+    
+}
+/* Left Side of the page */
+.aside{
+    width: 500px;
+    background-color:yellow;
+    height: 300px;
+    border:black solid 10px;
+}
+/* Main-Container */
+.main-container{
+    width: 750px;
+    height: 500px;
+    /* background-color: cyan;  */
+}
+/* Right Side of the page */
+.neil{
+    height: 100px;
+    width: 500px;
+    border: 5px solid black;
+    
+
+}
+.nichole{
+    height: 100px;
+    width: 500px;
+    border: black 5px solid;
+
+
+
+}
+.jim{
+    height: 100px;
+    width: 500px;
+    border: black 5px solid;
+
+
+}
+.button{
+    border: black 5px solid;
+    background-color: goldenrod;
+}
